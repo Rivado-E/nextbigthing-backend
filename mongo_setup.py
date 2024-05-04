@@ -14,6 +14,9 @@ client = MongoClient(connection_string)
 # Main database for our application
 umd_club_app_db = client.umd_club_app
 
-# Clubs collection
+# All Clubs collection
 clubs = umd_club_app_db.clubs
-print(clubs)
+
+# All Users collection
+users = umd_club_app_db.users
+
