@@ -353,4 +353,5 @@ def attendEvent(club_name, event_id, member_id):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run()
